@@ -1,2 +1,10 @@
 game_root = "d:/Rockstar Games/Grand Theft Auto IV/common/data"
-datafiles = ['vehicles.ide', 'handling.dat', 'carcols.dat', 'vehOff.csv']
+datafile_dir = "common/data"
+df = ['vehicles.ide',
+      'handling.dat',
+      'carcols.dat',
+      'vehOff.csv']
+
+for i in df:
+    datafiles.append('%s/%s' % (datafile_dir, i))
+    

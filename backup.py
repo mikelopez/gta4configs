@@ -6,7 +6,8 @@ import os
 from datetime import datetime
 from settings import game_root, datafiles
 
-backup_folder = str(datetime.now()).replace(' ', '_')
+backup_folder = str(datetime.now()).replace(' ', '_').replace(':','-').replace('.','-')
+
 if not os.path.exists('backups/%s' % backup_folder):
     print 'Created directory backups/%s' % backup_folder
     os.system('mkdir "backups/%s"' % backup_folder)
