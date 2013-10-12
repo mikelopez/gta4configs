@@ -3,7 +3,7 @@ Copies the original datafiles from the game
 root to local directory of this project
 """
 import os
-from settings import game_root, datafiles
+from settings import game_root, datafiles, datafile_dir
 
 for file in datafiles:
     print 'Copying %s/%s to .' % (game_root, file)
