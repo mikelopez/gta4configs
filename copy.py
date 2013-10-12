@@ -6,6 +6,6 @@ import os
 from settings import game_root, datafiles, datafile_dir
 
 for file in datafiles:
-    print 'Copying %s/%s to .' % (game_root, file)
-    os.system('cp %s/%s .' % (game_root, file))
+    print 'Copying %s/%s to %s/' % (game_root, file, datafile_dir)
+    os.system('cp %s/%s %s/' % (game_root, file, datafile_dir))
 
