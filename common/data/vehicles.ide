@@ -20,9 +20,10 @@ cars
 #																	Front	Rear			Swankness		flags
 # cars have two extra fields wheelmodelId and wheel scale
 # planes have one extra field model id of low level of detail
+airtug, airtug, plane, AIRTUG, AIRTUG, VEH@STD,	VEH@STD_LE1_RI1,				5,	5,		0.2829,	0.2829,		0,	2,	1.0	,0,	noboot+ext_rare+livery# 
 schafter, 	schafter,	car,		SCHAFTER,	SCHAFTER,	VEH@LOW, 	VEH@STD_RI3,		100,	999,		0.2924,	0.2924, 	0,	1,	1.0	,2,	ext_gang+ext_all+ext_strong  
 admiral, 	admiral,		plane,		BOEING,		ADMIRAL,		VEH@STD,	VEH@STD_LE1_RI1,				5,	5,		0.2829,	0.2829,		0,	2,	1.0	,0,	noboot
-airtug,		airtug,		car,		AIRTUG,		AIRTUG,		VEH@VAN,	NULL,				100,	999,		0.1104,	0.1104,		0,	2,	1.0	,1,	noboot+ext_conv
+# airtug,		airtug,		car,		AIRTUG,		AIRTUG,		VEH@VAN,	NULL,				100,	999,		0.1104,	0.1104,		0,	2,	1.0	,1,	noboot+ext_conv
 ambulance, 	ambulance,	car,		AMBULANCE,	AMBULAN,	VEH@VAN,	NULL,				100,	999,		0.2406,	0.2406,		0,	2,	1.5	,1,	noboot+isvan+truckfirefx+ext_strong
 banshee,	banshee,	car,		BANSHEE,	BANSHEE,	VEH@LOW,	VEH@LOW_CONV,		10,	999,		0.2967,	0.2967,		0,	5,	1.0	,0,	ext_conv+ext_strong
 benson,		benson,		car,		BENSON,		BENSON,		VEH@VAN,	VEH@VAN_BA1,		10,	999,		0.2944,	0.2944,		0.7,	1,	1.5	,2,	noboot+avoidturns+big+ext_requi+truckfirefx+truckenginefx
