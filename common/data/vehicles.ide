@@ -102,7 +102,6 @@ ruiner, 	ruiner, 	car,		RUINER,		RUINER,		VEH@LOW,	VEH@LOW_LE2_RI2,	100,	999,		0
 sabre, 		sabre,		car,		SABRE,		SABRE,		VEH@LOW,	VEH@LOW_LE1_RI1,	100,	999,		0.2004,	0.2004,		0.5	4,	1.0	,1,	-
 sabre2, 	sabre2,		car,		SABRE2,		SABRE2,		VEH@LOW,	VEH@LOW_LE1_RI1,	30,	999,		0.2004,	0.2004,		0.5	4,	1.0	,1,	livery+ext_requi+bangerexhaustfx
 sabregt, 	sabregt,	car,		SABREGT,	SABREGT,	VEH@LOW,	VEH@LOW_LE2_RI2,	100,	999,		0.2240,	0.2240,		0,	5,	1.0	,0,	-
-schafter, 	schafter,	car,		SCHAFTER,	SCHAFTER,	VEH@STD,	VEH@STD_LO4_LO4,	100,	999,		0.2440,	0.2440,		0,	1,	1.0	,0,	ext_gang+ext_requi+ext_strong
 sentinel,	sentinel,	car,		SENTINEL,	SENTINEL,	VEH@LOW,	VEH@LOW_LU2_RI2,	100,	999,		0.2637,	0.2637,		0,	5,	1.0	,0,	ext_gang+ext_all+ext_strong
 solair,	 	solair,		car,		SOLAIR,		SOLAIR,		VEH@STD,	VEH@STD_RI1,		100,	999,		0.2337,	0.2337,		0.3,	2,	1.0	,1,	-
 speedo,		speedo,		car,		SPEEDO,		SPEEDO,		VEH@VAN,	VEH@VAN_FO2_FO2,	30,	999,		0.2335,	0.2335,		0.4,	1,	1.5	,1,	noboot+isvan+delivery+ext_all+livery
