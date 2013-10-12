@@ -1,4 +1,7 @@
-"""Copies the original datafiles from the game root to local directory."""
+"""
+Copies the original datafiles from the game
+root to local directory of this project
+"""
 import os
 from settings import game_root, datafiles
 
