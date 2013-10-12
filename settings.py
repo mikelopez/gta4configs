@@ -7,4 +7,7 @@ datafiles = ['%s/vehicles.ide'%datafile_dir,
              '%s/carcols.dat'%datafile_dir,
              '%s/vehOff.csv'%datafile_dir,
              'objects.ini',
-             'objects2.ini']
+             'objects2.ini',
+						 'ScriptHookDotNet.asi',
+						 'ScriptHook.dll',
+						 'dsound.dll']
