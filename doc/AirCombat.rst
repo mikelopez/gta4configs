@@ -67,40 +67,44 @@ The DEFAULT HOTKEYS are:
 
 To control the jet:
 
-W (accel.)
-S (desaccel.)
-A (or numpad 4)
-D (or numpad 6)
-Shift (or numpad 8)
-Control (or numpad 5)
-numpad 7 - turn left
-numpad 9 - turn right
+* W (accel.)
+* S (desaccel.)
+* A (or numpad 4)
+* D (or numpad 6)
+* Shift (or numpad 8)
+* Control (or numpad 5)
+* numpad 7 - turn left
+* numpad 9 - turn right
 
-X - Switch cam
-Right click - Follow missile/bomb with camera
-Space shoot missiles
-Numpad0 - Shoot cannon
-Q - Drop bomb
-E - Release flare to avoid missiles (hold to release one by one)
-F - Enter Jet / Exit Jet / Eject (if flying)
-Left/Right help "drive" the jet while in the ground
-0 - Spawn menu
-Enter - Spawn select Jet in spawn menu, hold shift to spawn and start flying
-2 - Spawn enemy
-3 - Spawn fugitive
+* X - Switch cam
+* Right click - Follow missile/bomb with camera
+* Space shoot missiles
+* Numpad0 - Shoot cannon
+* Q - Drop bomb
+* E - Release flare to avoid missiles (hold to release one by one)
+* F - Enter Jet / Exit Jet / Eject (if flying)
+* Left/Right help "drive" the jet while in the ground
+* 0 - Spawn menu
+* Enter - Spawn select Jet in spawn menu, hold shift to spawn and start flying
+* 2 - Spawn enemy
+* 3 - Spawn fugitive
 
 when on ground:
-Left/Right (or numpads 7/9) - turn left or right
-S - Break
+==============
+* Left/Right (or numpads 7/9) - turn left or right
+* S - Break
+
 
 if the jet SPIN/ROLL too much when using numpads, reduce the value of the variables:
 
-moveLeftForce=1
-moveRightForce=1
-rollLeftForce=1
-rollRightForce=1
-moveUpForce=1
-moveDownForce=1
+
+* moveLeftForce=1
+* moveRightForce=1
+* rollLeftForce=1
+* rollRightForce=1
+* moveUpForce=1
+* moveDownForce=1
+
 
 to something like 0.3, in the jet_xxxx.ini file (folder Jets)
 
