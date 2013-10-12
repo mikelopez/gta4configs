@@ -1,6 +1,10 @@
-game_root = "d:/Rockstar Games/Grand Theft Auto IV/common/data"
+game_root = "d:/Rockstar Games/Grand Theft Auto IV"
+
 datafile_dir = "common/data"
-datafiles = ['vehicles.ide',
-              'handling.dat',
-              'carcols.dat',
-              'vehOff.csv']
+
+datafiles = ['%s/vehicles.ide'%datafile_dir,
+             '%s/handling.dat'%datafile_dir,
+             '%s/carcols.dat'%datafile_dir,
+             '%s/vehOff.csv'%datafile_dir,
+             'objects.ini',
+             'objects2.ini']
